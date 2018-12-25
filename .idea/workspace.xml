@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ad132-ab51-44a6-897d-48ed0b8fc569" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/14. Longest Common Prefix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/20. Valid Parentheses.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="14. Longest Common Prefix.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/14. Longest Common Prefix.py">
+      <file leaf-file-name="20. Valid Parentheses.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/20. Valid Parentheses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="174">
+              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/code/7. Reverse Integer.py" />
         <option value="$PROJECT_DIR$/code/13. Roman to Integer.py" />
         <option value="$PROJECT_DIR$/code/14. Longest Common Prefix.py" />
+        <option value="$PROJECT_DIR$/code/20. Valid Parentheses.py" />
       </list>
     </option>
   </component>
@@ -54,8 +55,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
-    <option name="y" value="88" />
+    <option name="x" value="259" />
+    <option name="y" value="83" />
     <option name="width" value="890" />
     <option name="height" value="583" />
   </component>
@@ -180,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="88" width="890" height="583" extended-state="0" />
+    <frame x="259" y="83" width="890" height="583" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22931442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -259,6 +260,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/20. Valid Parentheses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>
