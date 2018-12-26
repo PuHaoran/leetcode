@@ -5,8 +5,9 @@
 
 ## 概览
 
-* [代码目录](code)
+* [leetcode](code)
 
     - Two Sum.py
     - Two Sum.c
     - ...
+* [剑指offer](coding-interview)
