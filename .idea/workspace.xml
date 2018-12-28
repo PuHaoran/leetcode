@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ad132-ab51-44a6-897d-48ed0b8fc569" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coding-interview/23. 矩阵中的路径.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coding-interview/22. 旋转数组的最小数字.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="23. 矩阵中的路径.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coding-interview/23. 矩阵中的路径.py">
+      <file leaf-file-name="22. 旋转数组的最小数字.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coding-interview/22. 旋转数组的最小数字.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="95">
+              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -67,6 +67,7 @@
         <option value="$PROJECT_DIR$/coding-interview/18. 重建二叉树.py" />
         <option value="$PROJECT_DIR$/coding-interview/19. 二叉树的下一个节点.py" />
         <option value="$PROJECT_DIR$/coding-interview/23. 矩阵中的路径.py" />
+        <option value="$PROJECT_DIR$/coding-interview/22. 旋转数组的最小数字.py" />
       </list>
     </option>
   </component>
@@ -510,8 +511,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/coding-interview/23. 矩阵中的路径.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state relative-caret-position="155">
+          <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coding-interview/22. 旋转数组的最小数字.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
           <folding />
         </state>
       </provider>
