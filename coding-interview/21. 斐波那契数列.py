@@ -9,6 +9,9 @@
 返回 5
 '''
 
+'''
+递推+滚动变量，时间复杂度O(n)，空间复杂度O(1)。
+'''
 class Solution(object):
     def Fibonacci(self, n):
         """
@@ -29,6 +32,48 @@ class Solution(object):
         return b
 
 '''
-题解:
-斐波那契，采用递推求解。
+递归
+计算n^2个节点，时间复杂度O(n^2)
+算法题中避免整数溢出，通常要对数据取模10^9+7，这是一个非常大的质数。
+为什么要取模？数据比较大时，避免整数溢出。
+为什么要是质数？能够保证散列后的数尽量随机均匀分布。
 '''
+class Solution(object):
+    MOD = 10**9+7
+    def Fibonacci(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 0:
+            return 0
+        if n == 1:
+            return 1
+        if n >= 2:
+            return (self.Fibonacci(n-1) + self.Fibonacci(n-2)) % self.MOD
+
+'''
+记忆化搜索
+开一个大数组计算中间结果，如果存在，则直接返回结果，否则继续递归。
+'''
+class Solution(object):
+    MOD = 10 ** 9 + 7
+    a = [-1] * MOD
+
+    def Fibonacci(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if self.a[n] != -1:
+            return self.a[n]
+        if n == 0:
+            return 0
+        if n == 1:
+            return 1
+
+        self.a[n] = self.Fibonacci(n - 1) + self.Fibonacci(n - 2)
+        return self.a[n]
+
+
+
