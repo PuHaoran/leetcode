@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1ad132-ab51-44a6-897d-48ed0b8fc569" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/code/547. Friend Circles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/684. Redundant Connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/692. Top K Frequent Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/19. Remove Nth Node From End of List.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/692. Top K Frequent Words.py">
+        <entry file="file://$PROJECT_DIR$/code/19. Remove Nth Node From End of List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="457">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -45,7 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/code/13. Roman to Integer.py" />
         <option value="$PROJECT_DIR$/code/14. Longest Common Prefix.py" />
         <option value="$PROJECT_DIR$/code/20. Valid Parentheses.py" />
         <option value="$PROJECT_DIR$/code/21. Merge Two Sorted Lists.py" />
@@ -96,12 +93,13 @@
         <option value="$PROJECT_DIR$/code/684. Redundant Connection.py" />
         <option value="$PROJECT_DIR$/code/629.py" />
         <option value="$PROJECT_DIR$/code/692. Top K Frequent Words.py" />
+        <option value="$PROJECT_DIR$/code/19. Remove Nth Node From End of List.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="105" />
+    <option name="x" value="622" />
+    <option name="y" value="191" />
     <option name="width" value="1498" />
     <option name="height" value="802" />
   </component>
@@ -161,6 +159,11 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="coding-interview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,15 +321,15 @@
       <updated>1545640845964</updated>
       <workItem from="1566525531519" duration="3173000" />
       <workItem from="1566531784395" duration="987000" />
-      <workItem from="1566541268583" duration="2699000" />
+      <workItem from="1566541268583" duration="4693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6859000" />
+    <option name="totallyTimeSpent" value="8853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="282" width="1498" height="802" extended-state="0" />
+    <frame x="171" y="194" width="1498" height="802" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24061196" />
@@ -344,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.42158273" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3294964" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32934132" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -502,13 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coding-interview/33. 链表中倒数第k个节点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -675,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/684. Redundant Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/629.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -689,10 +678,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/684. Redundant Connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/692. Top K Frequent Words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="1495">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coding-interview/33. 链表中倒数第k个节点.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/19. Remove Nth Node From End of List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
