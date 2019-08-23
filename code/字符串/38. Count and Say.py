@@ -48,3 +48,27 @@ class Solution:
 题解:
 使用python语法中的tricks，itertools.groupby()把迭代器中相邻的重复元素挑出来放在一起。
 '''
+
+class Solution:
+    def countAndSay(self, n: int) -> str:
+        if n == 1:
+            return "1"
+
+        s = "1#"
+        i = 1
+        while(i<n):
+            s2 = ""
+            i += 1
+            t = 1
+            for j in range(len(s)-1):
+                if s[j] != s[j+1]:
+                    s2 += str(t) + s[j]
+                    t = 1
+                else:
+                    t += 1
+            s = s2 + "#"
+        return s[:-1]
+'''
+题解：
+在本子上画画，然后手撸的代码。
+'''
